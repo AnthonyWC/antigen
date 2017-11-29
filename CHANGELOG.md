@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/) [v2.0.0](http://semver.org/spec/v2.0.0.html).
 
+## [2.2.2] - 2017-11-19
+
+## Added
+- [#605] Create `CODE_OF_CONDUCT.md`
+
+## Changed
+- [#611] Remove "no extensions loaded" message
+- [#610, #596, #608] Fix cache generation with `cache-gen` command
+- [#609, #593] Add autoload for is-at-least
+- [#615] Oh-my-zsh themes backward compatibility
+
+## Fixed
+- [#590, #588, #587, #606] Fix multiple issues with caching generation
+- [#613] Defer cache loading to `antigen-apply` command
+- [#618, #617] Unalias built-in `cd`
+
+
 ## [2.2.1] - 2017-06-24
 
 We're adding a new environment variable:
